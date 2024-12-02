@@ -92,5 +92,3 @@ def translate_article(text,lang=language):
         ("system","você atua como tradutor de textos"),
         ("user",f"traduza o {text} para o idioma {lang} e responda em markdown")
     ]
-
-translator_text("As I walk through the valley of the shadow of death", language_destination)
